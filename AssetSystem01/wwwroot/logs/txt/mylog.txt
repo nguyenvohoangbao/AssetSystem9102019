@@ -1,0 +1,380 @@
+2019-10-04 20:31:19.9695||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ASUS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-04 20:31:21.3315|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/   
+2019-10-04 20:31:21.4661|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WebDemo01.Controllers.HomeController.Index (WebDemo01)' 
+2019-10-04 20:31:21.4862|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebDemo01.Controllers.HomeController (WebDemo01). 
+2019-10-04 20:31:21.5078|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebDemo01.Controllers.HomeController.Index (WebDemo01) - Validation state: Valid 
+2019-10-04 20:31:21.5171|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebDemo01.Controllers.HomeController.Index (WebDemo01), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.2816ms. 
+2019-10-04 20:31:21.5824|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2019-10-04 20:31:21.9576|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 423.9867ms. 
+2019-10-04 20:31:21.9723|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebDemo01.Controllers.HomeController.Index (WebDemo01) in 482.268ms 
+2019-10-04 20:31:21.9854|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WebDemo01.Controllers.HomeController.Index (WebDemo01)' 
+2019-10-04 20:31:22.0680|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 742.9823ms 200 text/html; charset=utf-8 
+2019-10-04 20:31:22.1228|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/css/site.css   
+2019-10-04 20:31:22.1228|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/lib/bootstrap/dist/js/bootstrap.bundle.js   
+2019-10-04 20:31:22.1455|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/lib/bootstrap/dist/css/bootstrap.css   
+2019-10-04 20:31:22.1906|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   
+2019-10-04 20:31:22.2375|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/site.css'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\css\site.css' 
+2019-10-04 20:31:22.2680|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 145.1693ms 200 text/css 
+2019-10-04 20:31:22.2915|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/lib/jquery/dist/jquery.js   
+2019-10-04 20:31:22.4021|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/site.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\js\site.js' 
+2019-10-04 20:31:22.4077|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 217.1421ms 200 application/javascript 
+2019-10-04 20:31:22.4447|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\lib\bootstrap\dist\css\bootstrap.css' 
+2019-10-04 20:31:22.4447|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 302.353ms 200 text/css 
+2019-10-04 20:31:22.4905|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js' 
+2019-10-04 20:31:22.5066|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\lib\jquery\dist\jquery.js' 
+2019-10-04 20:31:22.5066|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 384.3233ms 200 application/javascript 
+2019-10-04 20:31:22.5066|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 216.5529ms 200 application/javascript 
+2019-10-04 20:32:03.2387|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/Admin/index   
+2019-10-04 20:32:03.3189|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WebDemo01.Areas.Admin.Controllers.AdminController.Index (WebDemo01)' 
+2019-10-04 20:32:03.4562|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {area = "Admin", action = "Index", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebDemo01.Areas.Admin.Controllers.AdminController (WebDemo01). 
+2019-10-04 20:32:04.2497|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebDemo01.Areas.Admin.Controllers.AdminController.Index (WebDemo01) - Validation state: Valid 
+2019-10-04 20:32:04.2520|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebDemo01.Areas.Admin.Controllers.AdminController.Index (WebDemo01), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2923ms. 
+2019-10-04 20:32:04.2520|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2019-10-04 20:32:04.2884|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 34.8731ms. 
+2019-10-04 20:32:04.2884|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebDemo01.Areas.Admin.Controllers.AdminController.Index (WebDemo01) in 796.9049ms 
+2019-10-04 20:32:04.3000|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WebDemo01.Areas.Admin.Controllers.AdminController.Index (WebDemo01)' 
+2019-10-04 20:32:04.3000|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1063.8532ms 200 text/html; charset=utf-8 
+2019-10-04 20:32:04.3747|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/css/main.css   
+2019-10-04 20:32:04.3836|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/popper.min.js   
+2019-10-04 20:32:04.3836|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/jquery-3.2.1.min.js   
+2019-10-04 20:32:04.3836|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/bootstrap.min.js   
+2019-10-04 20:32:04.4397|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/main.js   
+2019-10-04 20:32:04.4820|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/plugins/pace.min.js   
+2019-10-04 20:32:04.5196|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/main.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\main.js' 
+2019-10-04 20:32:04.5196|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 82.1303ms 200 application/javascript 
+2019-10-04 20:32:04.5196|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/plugins/pace.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\plugins\pace.min.js' 
+2019-10-04 20:32:04.5419|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 59.9453ms 200 application/javascript 
+2019-10-04 20:32:04.5419|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/bootstrap.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\bootstrap.min.js' 
+2019-10-04 20:32:04.5877|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 202.1847ms 200 application/javascript 
+2019-10-04 20:32:04.5947|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/popper.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\popper.min.js' 
+2019-10-04 20:32:04.5947|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 212.4672ms 200 application/javascript 
+2019-10-04 20:32:04.6360|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/jquery-3.2.1.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\jquery-3.2.1.min.js' 
+2019-10-04 20:32:04.6947|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 309.3397ms 200 application/javascript 
+2019-10-04 20:32:04.7573|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/css/main.css'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\css\main.css' 
+2019-10-04 20:32:04.7573|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 384.4753ms 200 text/css 
+2019-10-04 20:32:07.3822|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/Admin/ViewErrorLog   
+2019-10-04 20:32:07.3936|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01)' 
+2019-10-04 20:32:07.3936|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {area = "Admin", action = "ViewErrorLog", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ViewErrorLog() on controller WebDemo01.Areas.Admin.Controllers.AdminController (WebDemo01). 
+2019-10-04 20:32:07.3936|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01) - Validation state: Valid 
+2019-10-04 20:32:08.9784|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1575.8015ms. 
+2019-10-04 20:32:09.0087|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view ViewErrorLog. 
+2019-10-04 20:32:11.5676|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view ViewErrorLog executed in 2587.0602ms. 
+2019-10-04 20:32:11.5676|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01) in 4170.4309ms 
+2019-10-04 20:32:11.5676|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01)' 
+2019-10-04 20:32:11.5676|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4193.8306ms 200 text/html; charset=utf-8 
+2019-10-04 20:32:11.6486|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/jquery-3.2.1.min.js   
+2019-10-04 20:32:11.6486|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/css/main.css   
+2019-10-04 20:32:11.6486|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/popper.min.js   
+2019-10-04 20:32:11.6486|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/plugins/pace.min.js   
+2019-10-04 20:32:11.6486|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/bootstrap.min.js   
+2019-10-04 20:32:11.6607|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/popper.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\popper.min.js' 
+2019-10-04 20:32:11.6607|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/plugins/pace.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\plugins\pace.min.js' 
+2019-10-04 20:32:11.6607|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/jquery-3.2.1.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\jquery-3.2.1.min.js' 
+2019-10-04 20:32:11.6486|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/main.js   
+2019-10-04 20:32:11.6607|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/bootstrap.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\bootstrap.min.js' 
+2019-10-04 20:32:11.6751|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 28.1406ms 200 application/javascript 
+2019-10-04 20:32:11.6751|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 26.4762ms 200 application/javascript 
+2019-10-04 20:32:11.6751|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 35.3592ms 200 application/javascript 
+2019-10-04 20:32:11.6751|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 33.5206ms 200 application/javascript 
+2019-10-04 20:32:11.6751|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/main.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\main.js' 
+2019-10-04 20:32:11.6992|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/css/main.css'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\css\main.css' 
+2019-10-04 20:32:11.7042|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 54.7578ms 200 application/javascript 
+2019-10-04 20:32:11.7042|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 59.4081ms 200 text/css 
+2019-10-04 20:32:53.1229|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/Admin/ActiveAccount   
+2019-10-04 20:32:53.1229|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WebDemo01.Areas.Admin.Controllers.AdminController.ActiveAccount (WebDemo01)' 
+2019-10-04 20:32:53.1383|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {area = "Admin", action = "ActiveAccount", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ActiveAccount() on controller WebDemo01.Areas.Admin.Controllers.AdminController (WebDemo01). 
+2019-10-04 20:32:53.1445|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebDemo01.Areas.Admin.Controllers.AdminController.ActiveAccount (WebDemo01) - Validation state: Valid 
+2019-10-04 20:32:53.3100|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'WebDemoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-04 20:32:55.1498|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (246ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [x].[ID], [x].[ActivationCode], [x].[IsEmailVerified], [x].[PassWord], [x].[TrangThai], [x].[UserName]
+FROM [AccountInfo] AS [x]
+WHERE [x].[IsEmailVerified] = 1 
+2019-10-04 20:32:55.1990||INFO|WebDemo01.Areas.Admin.Controllers.AdminController|Show List account active: 4 
+2019-10-04 20:32:55.2043|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebDemo01.Areas.Admin.Controllers.AdminController.ActiveAccount (WebDemo01), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2055.0387ms. 
+2019-10-04 20:32:55.2043|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view ActiveAccount. 
+2019-10-04 20:32:55.2210|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view ActiveAccount executed in 14.9858ms. 
+2019-10-04 20:32:55.2210|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebDemo01.Areas.Admin.Controllers.AdminController.ActiveAccount (WebDemo01) in 2078.0052ms 
+2019-10-04 20:32:55.2210|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WebDemo01.Areas.Admin.Controllers.AdminController.ActiveAccount (WebDemo01)' 
+2019-10-04 20:32:55.2210|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2103.4445ms 200 text/html; charset=utf-8 
+2019-10-04 20:32:55.2643|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/css/main.css   
+2019-10-04 20:32:55.2643|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/jquery-3.2.1.min.js   
+2019-10-04 20:32:55.2643|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/plugins/pace.min.js   
+2019-10-04 20:32:55.2643|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/popper.min.js   
+2019-10-04 20:32:55.2761|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/main.js   
+2019-10-04 20:32:55.2761|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/plugins/pace.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\plugins\pace.min.js' 
+2019-10-04 20:32:55.2761|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/bootstrap.min.js   
+2019-10-04 20:32:55.2761|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 14.356ms 200 application/javascript 
+2019-10-04 20:32:55.2761|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/main.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\main.js' 
+2019-10-04 20:32:55.2761|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/bootstrap.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\bootstrap.min.js' 
+2019-10-04 20:32:55.2877|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/jquery-3.2.1.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\jquery-3.2.1.min.js' 
+2019-10-04 20:32:55.2877|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 15.7046ms 200 application/javascript 
+2019-10-04 20:32:55.2877|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 11.5371ms 200 application/javascript 
+2019-10-04 20:32:55.2761|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/popper.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\popper.min.js' 
+2019-10-04 20:32:55.3365|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 71.5969ms 200 application/javascript 
+2019-10-04 20:32:55.3450|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 79.9519ms 200 application/javascript 
+2019-10-04 20:32:55.3450|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/css/main.css'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\css\main.css' 
+2019-10-04 20:32:55.3450|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 87.1029ms 200 text/css 
+2019-10-04 20:34:50.1398||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ASUS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-04 20:34:51.2256|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/   
+2019-10-04 20:34:51.3504|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WebDemo01.Controllers.HomeController.Index (WebDemo01)' 
+2019-10-04 20:34:51.3671|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebDemo01.Controllers.HomeController (WebDemo01). 
+2019-10-04 20:34:51.3816|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebDemo01.Controllers.HomeController.Index (WebDemo01) - Validation state: Valid 
+2019-10-04 20:34:51.3816|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebDemo01.Controllers.HomeController.Index (WebDemo01), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.917ms. 
+2019-10-04 20:34:51.4186|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2019-10-04 20:34:51.7534|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 352.5062ms. 
+2019-10-04 20:34:51.7534|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebDemo01.Controllers.HomeController.Index (WebDemo01) in 387.6083ms 
+2019-10-04 20:34:51.7534|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WebDemo01.Controllers.HomeController.Index (WebDemo01)' 
+2019-10-04 20:34:51.7812|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 557.0413ms 200 text/html; charset=utf-8 
+2019-10-04 20:34:51.8200|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/lib/bootstrap/dist/js/bootstrap.bundle.js   
+2019-10-04 20:34:51.8200|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/lib/bootstrap/dist/css/bootstrap.css   
+2019-10-04 20:34:51.8200|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   
+2019-10-04 20:34:51.8293|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/css/site.css   
+2019-10-04 20:34:51.8510|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/lib/jquery/dist/jquery.js   
+2019-10-04 20:34:51.8510|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/site.css'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\css\site.css' 
+2019-10-04 20:34:51.8617|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 32.3448ms 200 text/css 
+2019-10-04 20:34:51.8850|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/site.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\js\site.js' 
+2019-10-04 20:34:51.9002|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 77.3453ms 200 application/javascript 
+2019-10-04 20:34:51.9002|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js' 
+2019-10-04 20:34:51.9002|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 85.8734ms 200 application/javascript 
+2019-10-04 20:34:51.9002|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\lib\bootstrap\dist\css\bootstrap.css' 
+2019-10-04 20:34:51.9105|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\lib\jquery\dist\jquery.js' 
+2019-10-04 20:34:51.9105|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 89.9452ms 200 text/css 
+2019-10-04 20:34:51.9105|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 63.4682ms 200 application/javascript 
+2019-10-04 20:35:13.6514|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/admin/admin/test   
+2019-10-04 20:35:13.6729|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 21.609ms 404  
+2019-10-04 20:35:18.3119|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/Admin/ViewErrorLog   
+2019-10-04 20:35:18.3194|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01)' 
+2019-10-04 20:35:18.3194|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {area = "Admin", action = "ViewErrorLog", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ViewErrorLog() on controller WebDemo01.Areas.Admin.Controllers.AdminController (WebDemo01). 
+2019-10-04 20:35:18.5863|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01) - Validation state: Valid 
+2019-10-04 20:35:21.5442|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2956.7358ms. 
+2019-10-04 20:35:21.5611|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view ViewErrorLog. 
+2019-10-04 20:35:23.9714|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view ViewErrorLog executed in 2415.3289ms. 
+2019-10-04 20:35:23.9714|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01) in 5649.4419ms 
+2019-10-04 20:35:23.9714|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01)' 
+2019-10-04 20:35:23.9714|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5671.4048ms 200 text/html; charset=utf-8 
+2019-10-04 20:35:24.0461|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/bootstrap.min.js   
+2019-10-04 20:35:24.0496|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/jquery-3.2.1.min.js   
+2019-10-04 20:35:24.0496|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/css/main.css   
+2019-10-04 20:35:24.0496|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/bootstrap.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\bootstrap.min.js' 
+2019-10-04 20:35:24.0496|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/plugins/pace.min.js   
+2019-10-04 20:35:24.0496|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/popper.min.js   
+2019-10-04 20:35:24.0496|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/main.js   
+2019-10-04 20:35:24.0826|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/plugins/pace.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\plugins\pace.min.js' 
+2019-10-04 20:35:24.0496|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 14.3919ms 200 application/javascript 
+2019-10-04 20:35:24.0826|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 29.0959ms 200 application/javascript 
+2019-10-04 20:35:24.0826|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/popper.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\popper.min.js' 
+2019-10-04 20:35:24.0826|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/jquery-3.2.1.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\jquery-3.2.1.min.js' 
+2019-10-04 20:35:24.0826|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/main.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\main.js' 
+2019-10-04 20:35:24.1123|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 62.6571ms 200 application/javascript 
+2019-10-04 20:35:24.1123|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 55.1029ms 200 application/javascript 
+2019-10-04 20:35:24.1035|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 49.866ms 200 application/javascript 
+2019-10-04 20:35:24.1123|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/css/main.css'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\css\main.css' 
+2019-10-04 20:35:24.1370|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 87.3306ms 200 text/css 
+2019-10-04 20:35:27.9561|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/Admin/ViewErrorLog   
+2019-10-04 20:35:27.9561|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01)' 
+2019-10-04 20:35:27.9561|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {area = "Admin", action = "ViewErrorLog", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ViewErrorLog() on controller WebDemo01.Areas.Admin.Controllers.AdminController (WebDemo01). 
+2019-10-04 20:35:27.9561|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01) - Validation state: Valid 
+2019-10-04 20:35:27.9561|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.026ms. 
+2019-10-04 20:35:27.9561|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view ViewErrorLog. 
+2019-10-04 20:35:27.9775|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view ViewErrorLog executed in 11.9231ms. 
+2019-10-04 20:35:27.9775|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01) in 19.5722ms 
+2019-10-04 20:35:27.9775|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01)' 
+2019-10-04 20:35:27.9857|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 29.4996ms 200 text/html; charset=utf-8 
+2019-10-04 20:35:28.0202|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/css/main.css   
+2019-10-04 20:35:28.0202|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/jquery-3.2.1.min.js   
+2019-10-04 20:35:28.0202|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/main.js   
+2019-10-04 20:35:28.0202|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/bootstrap.min.js   
+2019-10-04 20:35:28.0202|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/popper.min.js   
+2019-10-04 20:35:28.0334|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/main.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\main.js' 
+2019-10-04 20:35:28.0334|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.143ms 200 application/javascript 
+2019-10-04 20:35:28.0334|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/bootstrap.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\bootstrap.min.js' 
+2019-10-04 20:35:28.0334|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/popper.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\popper.min.js' 
+2019-10-04 20:35:28.0334|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 18.0184ms 200 application/javascript 
+2019-10-04 20:35:28.0334|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 16.4828ms 200 application/javascript 
+2019-10-04 20:35:28.0202|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/plugins/pace.min.js   
+2019-10-04 20:35:28.0506|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/css/main.css'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\css\main.css' 
+2019-10-04 20:35:28.0692|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/plugins/pace.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\plugins\pace.min.js' 
+2019-10-04 20:35:28.0692|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 41.8576ms 200 application/javascript 
+2019-10-04 20:35:28.0506|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/jquery-3.2.1.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\jquery-3.2.1.min.js' 
+2019-10-04 20:35:28.0692|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 49.0595ms 200 text/css 
+2019-10-04 20:35:28.0692|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 48.7895ms 200 application/javascript 
+2019-10-04 20:35:34.1493|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/Admin/ViewErrorLog   
+2019-10-04 20:35:34.1493|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01)' 
+2019-10-04 20:35:34.1493|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {area = "Admin", action = "ViewErrorLog", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ViewErrorLog() on controller WebDemo01.Areas.Admin.Controllers.AdminController (WebDemo01). 
+2019-10-04 20:35:34.1493|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01) - Validation state: Valid 
+2019-10-04 20:35:34.1493|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0446ms. 
+2019-10-04 20:35:34.1597|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view ViewErrorLog. 
+2019-10-04 20:35:34.1597|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view ViewErrorLog executed in 10.8129ms. 
+2019-10-04 20:35:34.1597|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01) in 17.7641ms 
+2019-10-04 20:35:34.1767|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01)' 
+2019-10-04 20:35:34.1767|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 32.6165ms 200 text/html; charset=utf-8 
+2019-10-04 20:35:34.2213|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/css/main.css   
+2019-10-04 20:35:34.2213|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/popper.min.js   
+2019-10-04 20:35:34.2213|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/jquery-3.2.1.min.js   
+2019-10-04 20:35:34.2213|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/bootstrap.min.js   
+2019-10-04 20:35:34.2213|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/plugins/pace.min.js   
+2019-10-04 20:35:34.2213|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/popper.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\popper.min.js' 
+2019-10-04 20:35:34.2352|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/plugins/pace.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\plugins\pace.min.js' 
+2019-10-04 20:35:34.2352|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8.0859ms 200 application/javascript 
+2019-10-04 20:35:34.2352|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 13.1959ms 200 application/javascript 
+2019-10-04 20:35:34.2213|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/bootstrap.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\bootstrap.min.js' 
+2019-10-04 20:35:34.2640|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 41.9ms 200 application/javascript 
+2019-10-04 20:35:34.2640|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/jquery-3.2.1.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\jquery-3.2.1.min.js' 
+2019-10-04 20:35:34.2213|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/main.js   
+2019-10-04 20:35:34.2753|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 53.2548ms 200 application/javascript 
+2019-10-04 20:35:34.2753|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/main.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\main.js' 
+2019-10-04 20:35:34.2753|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 58.7868ms 200 application/javascript 
+2019-10-04 20:35:34.2855|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/css/main.css'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\css\main.css' 
+2019-10-04 20:35:34.2855|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 74.7982ms 200 text/css 
+2019-10-04 20:35:51.4214|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/Admin/ViewErrorLog   
+2019-10-04 20:35:51.4239|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01)' 
+2019-10-04 20:35:51.4239|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {area = "Admin", action = "ViewErrorLog", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ViewErrorLog() on controller WebDemo01.Areas.Admin.Controllers.AdminController (WebDemo01). 
+2019-10-04 20:35:51.4389|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01) - Validation state: Valid 
+2019-10-04 20:35:51.4389|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0202ms. 
+2019-10-04 20:35:51.4389|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view ViewErrorLog. 
+2019-10-04 20:35:51.4617|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view ViewErrorLog executed in 16.4312ms. 
+2019-10-04 20:35:51.4617|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01) in 24.9059ms 
+2019-10-04 20:35:51.4617|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01)' 
+2019-10-04 20:35:51.4617|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 47.361ms 200 text/html; charset=utf-8 
+2019-10-04 20:35:51.5088|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/bootstrap.min.js   
+2019-10-04 20:35:51.5088|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/css/main.css   
+2019-10-04 20:35:51.5088|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/jquery-3.2.1.min.js   
+2019-10-04 20:35:51.5088|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/popper.min.js   
+2019-10-04 20:35:51.5162|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/main.js   
+2019-10-04 20:35:51.5162|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/plugins/pace.min.js   
+2019-10-04 20:35:51.5162|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/bootstrap.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\bootstrap.min.js' 
+2019-10-04 20:35:51.5366|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/plugins/pace.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\plugins\pace.min.js' 
+2019-10-04 20:35:51.5162|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/popper.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\popper.min.js' 
+2019-10-04 20:35:51.5366|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 27.921ms 200 application/javascript 
+2019-10-04 20:35:51.5162|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/main.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\main.js' 
+2019-10-04 20:35:51.5366|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 19.0857ms 200 application/javascript 
+2019-10-04 20:35:51.5366|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 30.3709ms 200 application/javascript 
+2019-10-04 20:35:51.5366|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 27.0996ms 200 application/javascript 
+2019-10-04 20:35:51.5366|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/jquery-3.2.1.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\jquery-3.2.1.min.js' 
+2019-10-04 20:35:51.5615|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 52.5582ms 200 application/javascript 
+2019-10-04 20:35:51.5743|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/css/main.css'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\css\main.css' 
+2019-10-04 20:35:51.5825|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 73.6556ms 200 text/css 
+2019-10-04 20:36:02.4605|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/Admin/ViewErrorLog   
+2019-10-04 20:36:02.4605|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01)' 
+2019-10-04 20:36:02.4605|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {area = "Admin", action = "ViewErrorLog", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ViewErrorLog() on controller WebDemo01.Areas.Admin.Controllers.AdminController (WebDemo01). 
+2019-10-04 20:36:02.4605|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01) - Validation state: Valid 
+2019-10-04 20:36:02.4605|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1409ms. 
+2019-10-04 20:36:02.4729|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view ViewErrorLog. 
+2019-10-04 20:36:02.4852|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view ViewErrorLog executed in 12.3202ms. 
+2019-10-04 20:36:02.4852|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01) in 19.8564ms 
+2019-10-04 20:36:02.4852|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01)' 
+2019-10-04 20:36:02.4852|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 37.4515ms 200 text/html; charset=utf-8 
+2019-10-04 20:36:02.5209|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/css/main.css   
+2019-10-04 20:36:02.5958|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/jquery-3.2.1.min.js   
+2019-10-04 20:36:02.5958|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/popper.min.js   
+2019-10-04 20:36:02.5958|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/bootstrap.min.js   
+2019-10-04 20:36:02.5958|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/main.js   
+2019-10-04 20:36:02.5958|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/plugins/pace.min.js   
+2019-10-04 20:36:02.6359|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/bootstrap.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\bootstrap.min.js' 
+2019-10-04 20:36:02.6359|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/popper.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\popper.min.js' 
+2019-10-04 20:36:02.6359|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/main.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\main.js' 
+2019-10-04 20:36:02.6359|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/plugins/pace.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\plugins\pace.min.js' 
+2019-10-04 20:36:02.6439|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 44.8076ms 200 application/javascript 
+2019-10-04 20:36:02.6439|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 46.2365ms 200 application/javascript 
+2019-10-04 20:36:02.6439|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 47.1222ms 200 application/javascript 
+2019-10-04 20:36:02.6671|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/jquery-3.2.1.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\jquery-3.2.1.min.js' 
+2019-10-04 20:36:02.6439|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 42.6621ms 200 application/javascript 
+2019-10-04 20:36:02.6864|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 90.5846ms 200 application/javascript 
+2019-10-04 20:36:02.6864|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/css/main.css'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\css\main.css' 
+2019-10-04 20:36:02.7161|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 195.1798ms 200 text/css 
+2019-10-04 20:36:28.7599|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/admin   
+2019-10-04 20:36:28.7599|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WebDemo01.Areas.Admin.Controllers.AdminController.Index (WebDemo01)' 
+2019-10-04 20:36:28.7738|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {area = "Admin", action = "Index", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebDemo01.Areas.Admin.Controllers.AdminController (WebDemo01). 
+2019-10-04 20:36:28.7738|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebDemo01.Areas.Admin.Controllers.AdminController.Index (WebDemo01) - Validation state: Valid 
+2019-10-04 20:36:28.7927|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebDemo01.Areas.Admin.Controllers.AdminController.Index (WebDemo01), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.9636ms. 
+2019-10-04 20:36:28.7927|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2019-10-04 20:36:28.8051|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 10.1502ms. 
+2019-10-04 20:36:28.8051|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebDemo01.Areas.Admin.Controllers.AdminController.Index (WebDemo01) in 31.0035ms 
+2019-10-04 20:36:28.8051|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WebDemo01.Areas.Admin.Controllers.AdminController.Index (WebDemo01)' 
+2019-10-04 20:36:28.8051|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 52.4838ms 302 text/html; charset=utf-8 
+2019-10-04 20:36:28.8051|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Account/Login   
+2019-10-04 20:36:28.8161|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WebDemo01.Controllers.AccountController.Login (WebDemo01)' 
+2019-10-04 20:36:28.8161|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WebDemo01.Controllers.AccountController (WebDemo01). 
+2019-10-04 20:36:28.8161|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebDemo01.Controllers.AccountController.Login (WebDemo01) - Validation state: Valid 
+2019-10-04 20:36:28.8161|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebDemo01.Controllers.AccountController.Login (WebDemo01), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2596ms. 
+2019-10-04 20:36:28.8161|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login. 
+2019-10-04 20:36:28.8510|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 25.7213ms. 
+2019-10-04 20:36:28.8510|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebDemo01.Controllers.AccountController.Login (WebDemo01) in 32.2413ms 
+2019-10-04 20:36:28.8510|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WebDemo01.Controllers.AccountController.Login (WebDemo01)' 
+2019-10-04 20:36:28.8603|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 48.4107ms 200 text/html; charset=utf-8 
+2019-10-04 20:36:28.8957|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Login/Css/style.css   
+2019-10-04 20:36:28.8957|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Login/bootstrap/css/bootstrap.min.css   
+2019-10-04 20:36:28.8957|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Login/Js/Jquery3.4.1.js   
+2019-10-04 20:36:28.8957|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Login/Js/js.js   
+2019-10-04 20:36:28.8957|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Login/bootstrap/js/bootstrap.min.js   
+2019-10-04 20:36:28.9141|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/CheckRegister.js   
+2019-10-04 20:36:28.9141|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Login/bootstrap/js/bootstrap.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Login\bootstrap\js\bootstrap.min.js' 
+2019-10-04 20:36:28.9141|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Login/Js/js.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Login\Js\js.js' 
+2019-10-04 20:36:28.9141|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 16.8196ms 200 application/javascript 
+2019-10-04 20:36:28.9141|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 21.8576ms 200 application/javascript 
+2019-10-04 20:36:28.9141|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Login/Css/style.css'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Login\Css\style.css' 
+2019-10-04 20:36:28.9233|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 31.2696ms 200 text/css 
+2019-10-04 20:36:28.9233|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/CheckLogin.js   
+2019-10-04 20:36:28.9233|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/lib/Jquery_validation/dist/jquery.validate.min.js   
+2019-10-04 20:36:28.9141|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/CheckRegister.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\CheckRegister.js' 
+2019-10-04 20:36:28.9479|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/CheckLogin.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\CheckLogin.js' 
+2019-10-04 20:36:28.9479|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/lib/Jquery_validation/dist/jquery.validate.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\lib\Jquery_validation\dist\jquery.validate.min.js' 
+2019-10-04 20:36:28.9479|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 26.0436ms 200 application/javascript 
+2019-10-04 20:36:28.9479|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 35.1171ms 200 application/javascript 
+2019-10-04 20:36:28.9479|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Login/Js/Jquery3.4.1.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Login\Js\Jquery3.4.1.js' 
+2019-10-04 20:36:28.9611|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 65.8941ms 200 application/javascript 
+2019-10-04 20:36:28.9611|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Login/bootstrap/css/bootstrap.min.css'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Login\bootstrap\css\bootstrap.min.css' 
+2019-10-04 20:36:28.9479|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 26.9356ms 200 application/javascript 
+2019-10-04 20:36:28.9611|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 69.5742ms 200 text/css 
+2019-10-04 20:36:36.4505|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 POST https://localhost:44361/Account/Login application/x-www-form-urlencoded 49 
+2019-10-04 20:36:36.4580|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WebDemo01.Controllers.AccountController.Login (WebDemo01)' 
+2019-10-04 20:36:36.4729|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WebDemo01.Models.LoginViewModel) on controller WebDemo01.Controllers.AccountController (WebDemo01). 
+2019-10-04 20:36:36.5190|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebDemo01.Controllers.AccountController.Login (WebDemo01) - Validation state: Valid 
+2019-10-04 20:36:36.6733|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'WebDemoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-04 20:36:38.6000|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (246ms) [Parameters=[@__model_UserName_0='?' (Size = 4000), @__Encrypt_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [m].[ID], [m].[ActivationCode], [m].[IsEmailVerified], [m].[PassWord], [m].[TrangThai], [m].[UserName]
+FROM [AccountInfo] AS [m]
+WHERE ([m].[UserName] = @__model_UserName_0) AND ([m].[PassWord] = @__Encrypt_1) 
+2019-10-04 20:36:38.6502||INFO|WebDemo01.Controllers.AccountController|::1 + IPAddress +  
+2019-10-04 20:36:38.6502||INFO|WebDemo01.Controllers.AccountController|::1 -- IPLOCAL -- 
+2019-10-04 20:36:38.6576||INFO|WebDemo01.Controllers.AccountController|Login Success with nkmanh1997@gmail.com Pass: 12345678 
+2019-10-04 20:36:38.6576|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebDemo01.Controllers.AccountController.Login (WebDemo01), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2139.7617ms. 
+2019-10-04 20:36:38.6576|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.RedirectResultExecutor|Executing RedirectResult, redirecting to /Admin/Admin/Index. 
+2019-10-04 20:36:38.6576|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebDemo01.Controllers.AccountController.Login (WebDemo01) in 2189.1083ms 
+2019-10-04 20:36:38.6576|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WebDemo01.Controllers.AccountController.Login (WebDemo01)' 
+2019-10-04 20:36:38.6576|3|INFO|Microsoft.AspNetCore.Session.DistributedSession|Session started; Key:a16ab893-70a7-6437-2547-37bc5f05caeb, Id:7d4a0228-9459-0443-bedd-68f1a2abd0ce 
+2019-10-04 20:36:38.6735|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2223.8873ms 302  
+2019-10-04 20:36:38.6735|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/Admin/Index   
+2019-10-04 20:36:38.6735|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WebDemo01.Areas.Admin.Controllers.AdminController.Index (WebDemo01)' 
+2019-10-04 20:36:38.6735|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {area = "Admin", action = "Index", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebDemo01.Areas.Admin.Controllers.AdminController (WebDemo01). 
+2019-10-04 20:36:38.6735|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebDemo01.Areas.Admin.Controllers.AdminController.Index (WebDemo01) - Validation state: Valid 
+2019-10-04 20:36:38.6735|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebDemo01.Areas.Admin.Controllers.AdminController.Index (WebDemo01), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0168ms. 
+2019-10-04 20:36:38.6894|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index. 
+2019-10-04 20:36:38.6894|4|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 2.5311ms. 
+2019-10-04 20:36:38.6894|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebDemo01.Areas.Admin.Controllers.AdminController.Index (WebDemo01) in 10.5868ms 
+2019-10-04 20:36:38.6894|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WebDemo01.Areas.Admin.Controllers.AdminController.Index (WebDemo01)' 
+2019-10-04 20:36:38.6894|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 21.2882ms 200 text/html; charset=utf-8 
+2019-10-04 20:36:38.7346|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/css/main.css   
+2019-10-04 20:36:38.7415|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/jquery-3.2.1.min.js   
+2019-10-04 20:36:38.7415|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/popper.min.js   
+2019-10-04 20:36:38.7415|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/main.js   
+2019-10-04 20:36:38.7415|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/bootstrap.min.js   
+2019-10-04 20:36:38.7556|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/main.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\main.js' 
+2019-10-04 20:36:38.7415|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/js/plugins/pace.min.js   
+2019-10-04 20:36:38.7733|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 27.2367ms 200 application/javascript 
+2019-10-04 20:36:38.7733|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/bootstrap.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\bootstrap.min.js' 
+2019-10-04 20:36:38.7733|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/plugins/pace.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\plugins\pace.min.js' 
+2019-10-04 20:36:38.7822|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 33.6973ms 200 application/javascript 
+2019-10-04 20:36:38.7733|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/jquery-3.2.1.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\jquery-3.2.1.min.js' 
+2019-10-04 20:36:38.7733|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 34.3938ms 200 application/javascript 
+2019-10-04 20:36:38.7415|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/js/popper.min.js'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\js\popper.min.js' 
+2019-10-04 20:36:38.7822|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 51.6365ms 200 application/javascript 
+2019-10-04 20:36:38.7991|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 53.8136ms 200 application/javascript 
+2019-10-04 20:36:38.8434|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Admin/css/main.css'. Physical path: 'G:\Change_ME\WEB_DEMO\WebDemoDeploy\WebDemo01\wwwroot\Admin\css\main.css' 
+2019-10-04 20:36:38.8447|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 110.1018ms 200 text/css 
+2019-10-04 20:36:44.3487|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44361/Admin/Admin/ViewErrorLog   
+2019-10-04 20:36:44.3487|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01)' 
+2019-10-04 20:36:44.3487|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {area = "Admin", action = "ViewErrorLog", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ViewErrorLog() on controller WebDemo01.Areas.Admin.Controllers.AdminController (WebDemo01). 
+2019-10-04 20:36:44.3487|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01) - Validation state: Valid 
+2019-10-04 20:36:44.3487|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebDemo01.Areas.Admin.Controllers.AdminController.ViewErrorLog (WebDemo01), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0157ms. 
+2019-10-04 20:36:44.3487|1|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view ViewErrorLog. 
